@@ -1,0 +1,2 @@
+# Multi_Language_Website
+This web app supports multiple language and cultures to view. The application Local_Resource Folder contains three Resource file for Danish, English and Greenlandic languages. In Global.asax file during the time of session start Current Culture of the server is retrieved and added to the session. This session value is further assigned by the Page classes to assign it to Page UICulture. So that right Language Resource is loading accordingly.
